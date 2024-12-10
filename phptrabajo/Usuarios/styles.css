@@ -1,0 +1,141 @@
+body {
+    background-color: #EFFF62;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    text-align: center;
+    color: black;
+    margin-top: 5%;
+    font-size: 20px;
+}
+/*.container button{
+    background-color: #4CAF50;
+    color: black;
+}*/
+
+.form {
+    display: inline-block;
+    text-align: left;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form input[type="text"],
+.form input[type="email"],
+.form input[type="password"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.form input[type="submit"],
+.form button[type="submit"],
+.button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.form input[type="submit"]:hover,
+.form button[type="submit"]:hover,
+.button:hover {
+    background-color: #45a049;
+}
+
+.form label {
+    display: block;
+    margin-bottom: 5px;
+}
+/*.head h1{
+    color: #45a049;
+}*/
+
+.menu {
+    list-style-type: none;
+    padding: 0;
+    background-color: white;
+}
+
+.menu li {
+    display: inline-block;
+    margin: 10px auto;
+    background-color:  rgba(25, 61, 112, 1);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.menu li a {
+    text-decoration: none;
+    color:  rgba(25, 61, 112, 1);
+    font-weight: bold;
+    padding: 20px 20px;
+    border-radius: 5px;
+    margin: 20px auto;
+    background-color: rgba(177, 203, 215, 1);
+    transition: background-color 0.3s;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.menu li a:hover {
+    background-color: rgba(254, 254, 254, 1);
+}
+
+.vacante {
+    background-color: #f0f8ff;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+}
+
+.vacante h2, .vacante h3 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.vacante p {
+    margin: 5px 0;
+}
+
+.vacante button {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.vacante button:hover {
+    background-color: #45a049;
+}
+
+ul {
+    padding: 0;
+    list-style-type: none; /* Quitar los puntos */
+    margin: 10px 0; /* Separación entre elementos */
+    text-align: center; /* Centrar la lista */
+}
+table tr:nth-child(even) {
+    background-color: #f7dfbf; /* Tono para las filas pares */
+}
+
+table tr:nth-child(odd) {
+    background-color: #c2ddf1; /* Tono para las filas impares */
+}
